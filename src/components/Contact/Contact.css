@@ -1,0 +1,92 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px 60px;
+    gap: 50px;
+}
+
+.contact-title h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-area {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-items label{
+    font-size: 20px;
+}
+
+.contact-items input{
+    border: none;
+    background: #9ba6a5;
+    font-family: 'Outfit';
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.contact-items textarea{
+    border: none;
+    background: #9ba6a5;
+    font-family: 'Outfit';
+    height: 80px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.contact-right button {
+    margin-left: 85px;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'Outfit';
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+.contact-right button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:768px) {
+    .contact-container {
+        margin: 30px 100px;
+    }
+
+    .contact-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

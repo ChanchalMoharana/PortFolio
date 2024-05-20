@@ -1,0 +1,24 @@
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foot-right {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+@media (max-width:768px) {
+    .footer-part {
+        margin: 30px 100px;
+    }
+}

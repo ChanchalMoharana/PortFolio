@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-color: #242424;
+    color: white;
+    font-family: 'Outfit';
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.connect-now {
+    margin: 20px;
+    padding: 18px 40px;
+    background: orange;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.connect-now:hover {
+    transform: scale(1.05);
+}
